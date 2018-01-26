@@ -5,7 +5,7 @@
  * **public void init(List<String> list) {}**
  * **public void init(String... str) {}**
 <br>初始化adapter的方法，必须调用。传入图片地址
-<br>
+ 
  * **public void setOnClickListener(OnClickListener l){ }**
  <br>原有无法设置onClick，现在可以了
 
