@@ -20,4 +20,4 @@
  
  * *  public void init(List<String> list) {}
  * *  public void init(String... str) {}
- <br> 初始化adapter的方法，必须调用。传入图片地址
+<br>初始化adapter的方法，必须调用。传入图片地址
