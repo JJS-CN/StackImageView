@@ -1,5 +1,5 @@
 # StackImageView
-对原生的StackView进行简单封装，使之可以`加载网络图片`，并暴露几个常用接口
+对原生的StackView进行简单封装，依赖Glide4.0框架，使之可以`加载网络图片`，并暴露几个常用接口
 ***
 主要方法如下：
  * **public void init(List<String> list) {}**
