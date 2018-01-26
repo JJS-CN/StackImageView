@@ -1,5 +1,5 @@
 # StackImageView
-对原生的StackView进行简单封装，暴露几个接口出来
+对原生的StackView进行简单封装，使之可以加载网络图片，并暴露几个常用接口
 <br>
  * public void setOnClickListener(OnClickListener l){ }
  <br>原有无法设置onClick，现在可以了
@@ -15,3 +15,9 @@
  
  * public void setTransformation(Transformation<Bitmap> transformation) { }
  <br>由于图片加载使用Glide4.0库，所以图片的展示效果可以用transformation控制，所以传入吧；默认 CenterCorp
+ 
+ 
+ 
+ * *  public void init(List<String> list) {}
+ * *  public void init(String... str) {}
+ <br> 初始化adapter的方法，必须调用。传入图片地址
