@@ -1,10 +1,11 @@
 # StackImageView
 对原生的StackView进行简单封装，使之可以`加载网络图片`，并暴露几个常用接口
 ***
-  <br> **public void init(List<String> list) {}**
- <br> **public void init(String... str) {}**
+主要方法如下：
+ * **public void init(List<String> list) {}**
+ * **public void init(String... str) {}**
 <br>初始化adapter的方法，必须调用。传入图片地址
- ***
+<br>
  * **public void setOnClickListener(OnClickListener l){ }**
  <br>原有无法设置onClick，现在可以了
 
