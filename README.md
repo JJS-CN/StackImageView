@@ -1,5 +1,5 @@
 # StackImageView
-对原生的StackView进行简单封装，使之可以加载网络图片，并暴露几个常用接口
+对原生的StackView进行简单封装，`使之可以加载网络图片`，并暴露几个常用接口
 <br>
  * public void setOnClickListener(OnClickListener l){ }
  <br>原有无法设置onClick，现在可以了
