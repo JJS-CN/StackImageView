@@ -12,8 +12,8 @@
  *  **public void setCanMove(boolean canMove){ }**
  <br>设置是否可以进行原生的拖动操作；注意：true时回调onItemClick，false时回调onClick，不会同时调用；默认 true
  
- * **public void setImagePadding(@IntRange(from = 0) int padding) { }**
- <br>设置2张图片之间的间隔差值，单位dp，与原生逻辑有点区别；默认 10dp
+ * **public void setImageScale(@FloatRange(from = 0.1f, to = 0.8f) float scale) { }**
+ <br>设置图片大小占StackView的百分比,默认0.8f
  
  * **public void setImageBackgroundColor(@ColorInt int color) { }**
  <br>设置图片的背景颜色；默认 Color.TRANSPARENT
