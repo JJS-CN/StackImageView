@@ -86,7 +86,7 @@ public class StackImageView extends StackView {
     }
 
     /**
-     * 设置图片大小占StackView的百分比,默认0.9f
+     * 设置图片大小占StackView的百分比,默认0.7f
      */
     public void setImageScale(@FloatRange(from = 0.1f, to = 0.8f) float scale) {
         this.mImageScale = scale;
